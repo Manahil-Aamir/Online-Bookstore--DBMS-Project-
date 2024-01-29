@@ -1,0 +1,107 @@
+/* CSS for the cute bubble-like styling */
+.employees {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid  #e4a554;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid  #e4a554;
+    border-radius: 10px;
+    background-color:  white;
+  }
+  
+  th {
+    background-color:  #e4a554;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    background-color:  #e4a554;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color:  #e4a554;
+  }
+
+  .information table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .information th, .information td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Adjust padding for cell spacing */
+  }
+  
+  .information td:nth-child(1) {
+    max-width: 50px; /* Adjust the width of the BookID column */
+    text-align: center;
+  }
+  
+  .information td:nth-child(2),
+  .information td:nth-child(3),
+  .information td:nth-child(4),
+  .information td:nth-child(5),
+  .information td:nth-child(6),
+  .information td:nth-child(8),
+  .information td:nth-child(10),
+  .information td:nth-child(11) {
+    max-width: 70px; /* Adjust the width of other columns as needed */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .information td:nth-child(9) {
+    min-width: 300px; /* Increase the width of the BookDescription column */
+    text-align: left;
+  }
+
+  .information td:nth-child(8) {
+    min-width: 120px; /* Increase the width of the image column */
+    text-align: center;
+    align-items: center;
+  }
+  
+  .information td:nth-child(4) {
+    min-width: 100px; /* Increase the width of the pub_date column */
+    text-align: center;
+    align-items: center;
+  }
+  
+  .information td:nth-child(3) {
+    max-width: 100px; /* Adjust the width of the ISBN column */
+    text-align: center;
+  }
+  
+  .information td:nth-child(5) {
+    max-width: 40px; /* Adjust the width of the Quantity column */
+  }
+
+
+
+
+

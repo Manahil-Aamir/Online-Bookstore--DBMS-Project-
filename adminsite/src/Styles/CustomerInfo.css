@@ -1,0 +1,109 @@
+/* Existing styles */
+
+.employees {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.searchBar {
+  width: 400px;
+  height: 60px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #e4a554;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  border: 2px solid #e4a554;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse; /* Added to remove space between table cells */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #e4a554;
+  border-radius: 10px;
+  background-color: white;
+}
+
+th {
+  background-color: #e4a554;
+  color: white;
+  font-weight: bold;
+}
+
+/* Adjust the width of the 9th column */
+td:nth-child(9),
+th:nth-child(9) {
+  /* Change the width value to your desired width */
+  min-width: 150px; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .table-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 2px solid #e4a554;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-height: 300px; 
+  overflow-y: auto;
+} */
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #e4a554;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e4a554;
+}
+
+/* New styles for the cute bubble-like total display */
+/* Add this CSS to your existing styles */
+
+.total-bubble {
+  margin-top: -20px; /* Adjust the margin-top to bring it close to the table */
+  padding: 10px 20px;
+  background-color: #e4a554;
+  color: white;
+  border-radius: 50px;
+}
+
+.total-bubble:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent #e4a554;
+}

@@ -1,0 +1,38 @@
+
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 18px;
+  
+ 
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4a554;
+  width: 700px; /* Increase the width to make the bubbles wider from both sides */
+  height: 80px;
+  margin: 10px; /* Reduce the margin to bring the bubbles closer */
+  border-radius: 20px; /* Use a smaller border-radius to create rounded rectangles */
+  border-color: #333;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.10s, box-shadow 0.10s;
+}
+
+.nav-link:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}

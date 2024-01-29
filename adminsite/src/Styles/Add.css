@@ -1,0 +1,91 @@
+.add{
+  display: flex;
+}
+
+/* Style for the form container */
+.add .form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+/* Style for form rows and form items */
+.add .form-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.add .form-item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Style for labels */
+.add label {
+  font-weight: bold;
+  display: inline-block;
+  width: 400px; /* Fixed width for labels */
+  margin-bottom: 5px;
+}
+
+/* Style for input fields and select */
+.add input[type="text"],
+.add input[type="number"],
+.add input[type="date"],
+select {
+  width: calc(100% - 200px); /* Fixed width for labels */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add textarea {
+  width: 500px; /* Fixed width for labels */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style for buttons */
+.add button {
+  padding: 10px 20px;
+  background-color: #e4a554;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.add .form-container label {
+  color: #481e05;
+}
+
+/* Style for the "Done" button */
+.add button[type="submit"] {
+  background-color: #e4a554;
+  display: block; /* Make it a block-level element */
+  margin-left: 270px; /* Center horizontally */
+  text-align: center; /* Center the button text */
+  margin-top: 20px;
+}
+
+/* Style for the "Add Another" button */
+.add button[type="button"] {
+  background-color: #e4a554;
+  margin-left: 50px;
+}
+
+.login button:hover {
+  background-color: #e3dcd5;
+}
+
+.add .error{
+  border: 1px solid red; /* or use background-color: red; */
+}

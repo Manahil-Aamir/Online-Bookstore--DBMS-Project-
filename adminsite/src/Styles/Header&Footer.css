@@ -1,0 +1,34 @@
+/* Body styles */
+body {
+    background-color: #ffdbac; /* Creamish brown color */
+    margin: 0; /* Remove default margin for the body */
+    padding: 0; /* Remove default padding for the body */
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #e4a554; /* Adjusted header background color */
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Text color for the header */
+    width: 100%; /* Make the header span the entire width of the screen */
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Footer styles */
+ /* Footer styles */
+.footer {
+    background-color: #e4a554; /* Match the header background color */
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Text color for the footer */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  /* You can adjust the footer styles as needed */
+  
